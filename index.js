@@ -33,7 +33,7 @@ var emptyDirVotes = dirvotes;
 var emptyRotVotes = rotvotes;
 
 // Connect to TCP server
-tClient.connect(1337, '127.0.0.1', function(){
+tClient.connect(options.tucoPort, options.tucoServer, function(){
 	console.log("Connected to TCP server.");
 });
 
