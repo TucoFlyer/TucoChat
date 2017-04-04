@@ -1,0 +1,20 @@
+{
+  "name": "tctf",
+  "version": "1.1.0",
+  "description": "Chatbot for Tuco Flyer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tuco",
+    "flyer",
+    "bot"
+  ],
+  "author": "skiilaa",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "net": "^1.0.2",
+    "tmi.js": "^1.1.2"
+  }
+}
