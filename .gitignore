@@ -1,2 +1,5 @@
 # Node modules
 node_modules/
+
+# Config file (containing tokens, etc)
+config.json
